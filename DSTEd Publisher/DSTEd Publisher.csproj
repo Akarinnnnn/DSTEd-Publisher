@@ -5,6 +5,7 @@
 		<OutputType>Exe</OutputType>
 		<StartupObject>DSTEd.Publisher.Program</StartupObject>
 		<Platforms>x64;x86</Platforms>
+		<Configurations>Debug;Release;SingleFile</Configurations>
 	</PropertyGroup>
 	
 	<PropertyGroup Condition="'$(Configuration)' == 'SingleFile'">
